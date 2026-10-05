@@ -270,4 +270,4 @@ validate_version VERSION:
 release VERSION: install check-all
     @just validate_version v{{ VERSION }}
     git tag -s v{{ VERSION }} -m "{{ VERSION }} Release"
-    git push https://github.com/bckohan/sphinxcontrib-enum.git v{{ VERSION }}
+    git push https://github.com/sphinx-contrib/enum.git v{{ VERSION }}

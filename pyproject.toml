@@ -10,7 +10,7 @@ license = "MIT"
 license-files = [ "LICENSE" ]
 
 readme = "README.md"
-repository = "https://github.com/bckohan/sphinxcontrib-enum"
+repository = "https://github.com/sphinx-contrib/enum"
 homepage = "https://sphinxcontrib-enum.readthedocs.io"
 keywords = ["sphinx", "enum", "enumeration", "dataclass", "enum-properties", "table", "documentation"]
 dependencies = [
@@ -51,8 +51,8 @@ packages = ["src/sphinxcontrib_enum"]
 [project.urls]
 "Homepage"      = "https://sphinxcontrib-enum.readthedocs.io"
 "Documentation" = "https://sphinxcontrib-enum.readthedocs.io"
-"Repository"    = "https://github.com/bckohan/sphinxcontrib-enum"
-"Issues"        = "https://github.com/bckohan/sphinxcontrib-enum/issues"
+"Repository"    = "https://github.com/sphinx-contrib/enum"
+"Issues"        = "https://github.com/sphinx-contrib/enum/issues"
 "Changelog"     = "https://sphinxcontrib-enum.readthedocs.io/en/latest/changelog.html"
 
 [project.optional-dependencies]

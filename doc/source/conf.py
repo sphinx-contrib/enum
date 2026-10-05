@@ -25,7 +25,7 @@ exclude_patterns = []
 
 html_theme = "furo"
 html_theme_options = {
-    "source_repository": "https://github.com/bckohan/sphinxcontrib-enum/",
+    "source_repository": "https://github.com/sphinx-contrib/enum/",
     "source_branch": "main",
     "source_directory": "doc/source",
 }

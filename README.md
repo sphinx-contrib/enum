@@ -5,10 +5,10 @@
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/sphinxcontrib-enum.svg)](https://pypi.python.org/pypi/sphinxcontrib-enum/)
 [![PyPI status](https://img.shields.io/pypi/status/sphinxcontrib-enum.svg)](https://pypi.python.org/pypi/sphinxcontrib-enum)
 [![Documentation Status](https://readthedocs.org/projects/sphinxcontrib-enum/badge/?version=latest)](http://sphinxcontrib-enum.readthedocs.io/?badge=latest/)
-[![Code Cov](https://codecov.io/gh/bckohan/sphinxcontrib-enum/branch/main/graph/badge.svg?token=0IZOKN2DYL)](https://codecov.io/gh/bckohan/sphinxcontrib-enum)
-[![Test Status](https://github.com/bckohan/sphinxcontrib-enum/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/bckohan/sphinxcontrib-enum/actions/workflows/test.yml?query=branch:main)
-[![Lint Status](https://github.com/bckohan/sphinxcontrib-enum/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/bckohan/sphinxcontrib-enum/actions/workflows/lint.yml?query=branch:main)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/bckohan/sphinxcontrib-enum/badge)](https://securityscorecards.dev/viewer/?uri=github.com/bckohan/sphinxcontrib-enum)
+[![Code Cov](https://codecov.io/gh/sphinx-contrib/enum/branch/main/graph/badge.svg?token=0IZOKN2DYL)](https://codecov.io/gh/sphinx-contrib/enum)
+[![Test Status](https://github.com/sphinx-contrib/enum/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/sphinx-contrib/enum/actions/workflows/test.yml?query=branch:main)
+[![Lint Status](https://github.com/sphinx-contrib/enum/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/sphinx-contrib/enum/actions/workflows/lint.yml?query=branch:main)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/sphinx-contrib/enum/badge)](https://securityscorecards.dev/viewer/?uri=github.com/sphinx-contrib/enum)
 
 Sphinx directive for documenting dataclass enums in tabular format, with support for enum-properties.
 
@@ -72,8 +72,8 @@ class Planet(PlanetData, Enum):
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bckohan/sphinxcontrib-enum/main/doc/images/dataclass-dark.png">
-  <img alt="The Planet enum rendered as a table with name, mass, radius and moons columns, a legend describing each column and CSV and JSON download buttons" src="https://raw.githubusercontent.com/bckohan/sphinxcontrib-enum/main/doc/images/dataclass-light.png" width="380">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sphinx-contrib/enum/main/doc/images/dataclass-dark.png">
+  <img alt="The Planet enum rendered as a table with name, mass, radius and moons columns, a legend describing each column and CSV and JSON download buttons" src="https://raw.githubusercontent.com/sphinx-contrib/enum/main/doc/images/dataclass-light.png" width="380">
 </picture>
 
 ### Member Docstrings
@@ -108,8 +108,8 @@ class Severity(IntEnum):
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bckohan/sphinxcontrib-enum/main/doc/images/docstrings-dark.png">
-  <img alt="The Severity enum rendered as a table with name, value and doc columns, the doc column holding each member's rendered docstring" src="https://raw.githubusercontent.com/bckohan/sphinxcontrib-enum/main/doc/images/docstrings-light.png" width="713">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sphinx-contrib/enum/main/doc/images/docstrings-dark.png">
+  <img alt="The Severity enum rendered as a table with name, value and doc columns, the doc column holding each member's rendered docstring" src="https://raw.githubusercontent.com/sphinx-contrib/enum/main/doc/images/docstrings-light.png" width="713">
 </picture>
 
 ### enum-properties
@@ -141,8 +141,8 @@ class Shade(EnumProperties):
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bckohan/sphinxcontrib-enum/main/doc/images/enum-properties-dark.png">
-  <img alt="The Shade enum rendered as a table with name, value, label and hex columns and a legend describing the label and hex columns" src="https://raw.githubusercontent.com/bckohan/sphinxcontrib-enum/main/doc/images/enum-properties-light.png" width="287">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sphinx-contrib/enum/main/doc/images/enum-properties-dark.png">
+  <img alt="The Shade enum rendered as a table with name, value, label and hex columns and a legend describing the label and hex columns" src="https://raw.githubusercontent.com/sphinx-contrib/enum/main/doc/images/enum-properties-light.png" width="287">
 </picture>
 
 Columns, members, headers, widths, captions, download formats and cell formatting can all be customized:
@@ -162,7 +162,7 @@ Full documentation is available at [sphinxcontrib-enum.readthedocs.io](https://s
 ## Development
 
 ```bash
-git clone https://github.com/bckohan/sphinxcontrib-enum.git
+git clone https://github.com/sphinx-contrib/enum.git
 cd sphinxcontrib-enum
 just setup
 just install

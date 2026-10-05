@@ -37,19 +37,19 @@ sphinxcontrib-enum
         :target: http://sphinxcontrib-enum.readthedocs.io/?badge=latest/
         :alt: Documentation Status
 
-    .. image:: https://codecov.io/gh/bckohan/sphinxcontrib-enum/branch/main/graph/badge.svg?token=0IZOKN2DYL
-        :target: https://codecov.io/gh/bckohan/sphinxcontrib-enum
+    .. image:: https://codecov.io/gh/sphinx-contrib/enum/branch/main/graph/badge.svg?token=0IZOKN2DYL
+        :target: https://codecov.io/gh/sphinx-contrib/enum
         :alt: Code Coverage
 
-    .. image:: https://github.com/bckohan/sphinxcontrib-enum/actions/workflows/test.yml/badge.svg?branch=main
-        :target: https://github.com/bckohan/sphinxcontrib-enum/actions/workflows/test.yml
+    .. image:: https://github.com/sphinx-contrib/enum/actions/workflows/test.yml/badge.svg?branch=main
+        :target: https://github.com/sphinx-contrib/enum/actions/workflows/test.yml
         :alt: Test Status
 
-    .. image:: https://github.com/bckohan/sphinxcontrib-enum/actions/workflows/lint.yml/badge.svg
-        :target: https://github.com/bckohan/sphinxcontrib-enum/actions/workflows/lint.yml
+    .. image:: https://github.com/sphinx-contrib/enum/actions/workflows/lint.yml/badge.svg
+        :target: https://github.com/sphinx-contrib/enum/actions/workflows/lint.yml
         :alt: Lint Status
-    .. image:: https://api.securityscorecards.dev/projects/github.com/bckohan/sphinxcontrib-enum/badge
-        :target: https://securityscorecards.dev/viewer/?uri=github.com/bckohan/sphinxcontrib-enum
+    .. image:: https://api.securityscorecards.dev/projects/github.com/sphinx-contrib/enum/badge
+        :target: https://securityscorecards.dev/viewer/?uri=github.com/sphinx-contrib/enum
         :alt: OSSF Scorecard
 
 
