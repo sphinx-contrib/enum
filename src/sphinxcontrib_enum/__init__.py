@@ -27,7 +27,7 @@ enum-properties.
 """
 
 __title__ = "sphinxcontrib-enum"
-__version__ = "0.3.0"
+__version__ = "0.3.1"
 __author__ = "Brian Kohan"
 __license__ = "MIT"
 __copyright__ = "Copyright 2026 Brian Kohan"
