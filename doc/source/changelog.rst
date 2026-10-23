@@ -3,6 +3,12 @@
 Changelog
 =========
 
+0.3.2 (2026-10-22)
+------------------
+
+* Update release provenance to clear pypi warnings.
+
+
 0.3.1 (2026-10-05)
 ------------------
 
